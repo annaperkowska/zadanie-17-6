@@ -5,4 +5,5 @@ html
 	body
 		div
 			h1 Hello! Want to enter?
-			button(a href='/auth/google') Sign in
+		form(action='/auth/google', method='GET')
+			button(type='submit') Sign in
